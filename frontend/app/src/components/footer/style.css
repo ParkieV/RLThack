@@ -1,0 +1,25 @@
+.footer-container {
+    width: 1440px;
+    height: 397px;
+    background-color: white;
+    background-image: url(../../image/footerBackground.svg);
+    background-repeat: no-repeat;
+    background-position-y: 174px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.main-footer a {
+    text-decoration: none;
+    color: black;
+}
+.main-footer li {
+    list-style: none;
+}
+
+.footer-container h2, .footer-container a, .footer-container li {
+    font-size: 28px;
+}
+.footer-container h2, .footer-container p {
+    display: block;
+    margin: 0;
+}
